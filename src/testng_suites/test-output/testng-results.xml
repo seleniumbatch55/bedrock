@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="12" passed="12">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="232" started-at="2022-02-23T03:05:38Z" finished-at="2022-02-23T03:05:38Z">
+    <groups>
+      <group name="High">
+        <method signature="Grouping.a1()[pri:0, instance:testng_suites.Grouping@1786f9d5]" name="a1" class="testng_suites.Grouping"/>
+        <method signature="Grouping.d1()[pri:0, instance:testng_suites.Grouping@1786f9d5]" name="d1" class="testng_suites.Grouping"/>
+        <method signature="Grouping2.l1()[pri:0, instance:testng_suites.Grouping2@eb21112]" name="l1" class="testng_suites.Grouping2"/>
+        <method signature="Grouping2.x1()[pri:0, instance:testng_suites.Grouping2@eb21112]" name="x1" class="testng_suites.Grouping2"/>
+      </group> <!-- High -->
+      <group name="Low">
+        <method signature="Grouping.c1()[pri:0, instance:testng_suites.Grouping@1786f9d5]" name="c1" class="testng_suites.Grouping"/>
+        <method signature="Grouping.e1()[pri:0, instance:testng_suites.Grouping@1786f9d5]" name="e1" class="testng_suites.Grouping"/>
+        <method signature="Grouping2.n1()[pri:0, instance:testng_suites.Grouping2@eb21112]" name="n1" class="testng_suites.Grouping2"/>
+        <method signature="Grouping2.z1()[pri:0, instance:testng_suites.Grouping2@eb21112]" name="z1" class="testng_suites.Grouping2"/>
+      </group> <!-- Low -->
+      <group name="Medium">
+        <method signature="Grouping.b1()[pri:0, instance:testng_suites.Grouping@1786f9d5]" name="b1" class="testng_suites.Grouping"/>
+        <method signature="Grouping.f1()[pri:0, instance:testng_suites.Grouping@1786f9d5]" name="f1" class="testng_suites.Grouping"/>
+        <method signature="Grouping2.m1()[pri:0, instance:testng_suites.Grouping2@eb21112]" name="m1" class="testng_suites.Grouping2"/>
+        <method signature="Grouping2.o1()[pri:0, instance:testng_suites.Grouping2@eb21112]" name="o1" class="testng_suites.Grouping2"/>
+      </group> <!-- Medium -->
+      <group name="Regression">
+        <method signature="Grouping.d1()[pri:0, instance:testng_suites.Grouping@1786f9d5]" name="d1" class="testng_suites.Grouping"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="Grouping.d1()[pri:0, instance:testng_suites.Grouping@1786f9d5]" name="d1" class="testng_suites.Grouping"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test name="Test" duration-ms="232" started-at="2022-02-23T03:05:38Z" finished-at="2022-02-23T03:05:38Z">
+      <class name="testng_suites.Grouping2">
+        <test-method status="PASS" signature="l1()[pri:0, instance:testng_suites.Grouping2@eb21112]" name="l1" duration-ms="4" started-at="2022-02-23T08:35:38Z" finished-at="2022-02-23T08:35:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- l1 -->
+        <test-method status="PASS" signature="m1()[pri:0, instance:testng_suites.Grouping2@eb21112]" name="m1" duration-ms="1" started-at="2022-02-23T08:35:38Z" finished-at="2022-02-23T08:35:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m1 -->
+        <test-method status="PASS" signature="n1()[pri:0, instance:testng_suites.Grouping2@eb21112]" name="n1" duration-ms="2" started-at="2022-02-23T08:35:38Z" finished-at="2022-02-23T08:35:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- n1 -->
+        <test-method status="PASS" signature="o1()[pri:0, instance:testng_suites.Grouping2@eb21112]" name="o1" duration-ms="6" started-at="2022-02-23T08:35:38Z" finished-at="2022-02-23T08:35:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- o1 -->
+        <test-method status="PASS" signature="x1()[pri:0, instance:testng_suites.Grouping2@eb21112]" name="x1" duration-ms="9" started-at="2022-02-23T08:35:38Z" finished-at="2022-02-23T08:35:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- x1 -->
+        <test-method status="PASS" signature="z1()[pri:0, instance:testng_suites.Grouping2@eb21112]" name="z1" duration-ms="1" started-at="2022-02-23T08:35:38Z" finished-at="2022-02-23T08:35:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- z1 -->
+      </class> <!-- testng_suites.Grouping2 -->
+      <class name="testng_suites.Grouping">
+        <test-method status="PASS" signature="a1()[pri:0, instance:testng_suites.Grouping@1786f9d5]" name="a1" duration-ms="29" started-at="2022-02-23T08:35:38Z" finished-at="2022-02-23T08:35:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a1 -->
+        <test-method status="PASS" signature="b1()[pri:0, instance:testng_suites.Grouping@1786f9d5]" name="b1" duration-ms="1" started-at="2022-02-23T08:35:38Z" finished-at="2022-02-23T08:35:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b1 -->
+        <test-method status="PASS" signature="c1()[pri:0, instance:testng_suites.Grouping@1786f9d5]" name="c1" duration-ms="1" started-at="2022-02-23T08:35:38Z" finished-at="2022-02-23T08:35:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- c1 -->
+        <test-method status="PASS" signature="d1()[pri:0, instance:testng_suites.Grouping@1786f9d5]" name="d1" duration-ms="7" started-at="2022-02-23T08:35:38Z" finished-at="2022-02-23T08:35:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- d1 -->
+        <test-method status="PASS" signature="e1()[pri:0, instance:testng_suites.Grouping@1786f9d5]" name="e1" duration-ms="3" started-at="2022-02-23T08:35:38Z" finished-at="2022-02-23T08:35:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- e1 -->
+        <test-method status="PASS" signature="f1()[pri:0, instance:testng_suites.Grouping@1786f9d5]" name="f1" duration-ms="7" started-at="2022-02-23T08:35:38Z" finished-at="2022-02-23T08:35:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f1 -->
+      </class> <!-- testng_suites.Grouping -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
